@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BWAMBALE USDT FAUCET - FaucetPay</title>
+<style>
+body{font-family:sans-serif;background:#0f172a;color:white;text-align:center;padding:20px}
+.card{background:#1e293b;padding:20px;border-radius:15px;max-width:400px;margin:auto}
+input{width:90%;padding:12px;border-radius:8px;border:none;margin:10px 0}
+button{background:#22c55e;color:black;padding:12px 20px;border:none;border-radius:8px;font-weight:bold;width:95%}
+button:hover{background:#16a34a}
+</style>
+</head>
+<body>
+<h1>🚰 BWAMBALE USDT FAUCET</h1>
+<div class="card">
+<h3>Claim Free USDT via FaucetPay</h3>
+<p>Powered by FaucetPay.io - No withdraw limits</p>
+<input id="addr" placeholder="FaucetPay Email: yanalexb@gmail.com OR USDT BEP20 Address">
+<button onclick="claim()">CLAIM 0.0001 USDT</button>
+<p id="msg"></p>
+<hr>
+<p>Owner: yanalexb@gmail.com<br>Balance: Check FaucetPay Dashboard</p>
+<a href="https://faucetpay.io" style="color:#22c55e">Go to FaucetPay</a>
+</div>
+<script>
+function claim(){
+ document.getElementById('msg').innerText = "To enable auto-pay, add your FaucetPay API Key in Render backend. For now faucet is in TEST mode - Go to FaucetPay Dashboard > Faucet List > Create Faucet > USDT";
+}
+</script>
+</body>
+</html>
